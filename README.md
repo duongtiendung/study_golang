@@ -1,4 +1,4 @@
-#docker 
+# docker 
 
 ## xóa toàn bộ image 
 docker rmi -f $(docker images -a -q)
