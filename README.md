@@ -56,6 +56,14 @@ Kiểu Float dùng để biểu diễn các số thực, chúng ta sử dụng f
 var a float64
 a = 1,234
 
+4. Flow control
+    1. if, else
+    2. for
+    3. switch
+    4. defer
+    5. panic
+    6. recover
+
 
 
 
