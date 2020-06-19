@@ -101,7 +101,9 @@ func main() {
 	}
 
 	if map1 == nil {
-		fmt.Println("So sánh được map1 với nil")
+		fmt.Println(" map1 khác nil")
+	} else {
+		fmt.Println(" map1 = nil")
 	}
 	// map2 := map1
 
