@@ -37,7 +37,7 @@ var a uint
 a = 100 // OK
 a = -100 // Lỗi
 
-### Kiểu logic đúng/sai: Boolean bol
+### Kiểu logic đúng/sai: Boolean bol
 Kiểu Dữ Liệu Boolean trong Golang
 Kiểu boolean chỉ gồm 2 giá trị là True và False:
 var a, b bool
