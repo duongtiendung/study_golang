@@ -101,9 +101,9 @@ func main() {
 	}
 
 	if map1 == nil {
-		fmt.Println(" map1 khác nil")
-	} else {
 		fmt.Println(" map1 = nil")
+	} else {
+		fmt.Println(" map1 != nil")
 	}
 	// map2 := map1
 
@@ -309,5 +309,5 @@ func totalExpense(s []SalaryCalculator) {
 	for _, v := range s {
 		expense = expense + v.CalculateSalary()
 	}
-	fmt.Printf("Total Expense Per Month $%d", expense)
+	fmt.Printf("Total Expense Per Month $%d \n", expense)
 }
