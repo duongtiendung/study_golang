@@ -95,11 +95,14 @@ func main() {
 
 	//Map không thể so sánh với nhau bằng toán tử ==. Ta chỉ có thể sử dụng == để kiểm tra xem một map có phải là nil hay không.
 
-	// map1 := map[string]int{
-	//     "one": 1,
-	//     "two": 2,
-	// }
+	map1 := map[string]int{
+		"one": 1,
+		"two": 2,
+	}
 
+	if map1 == nil {
+		fmt.Println("So sánh được map1 với nil")
+	}
 	// map2 := map1
 
 	// if map1 == map2 {
