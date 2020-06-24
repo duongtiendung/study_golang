@@ -35,6 +35,7 @@ Unsigned Integer bao gồm các số nguyên không âm (hay chính là số t�
 
 var a uint
 a = 100 // OK
+
 a = -100 // Lỗi
 
 ### Kiểu logic đúng/sai: Boolean bol
