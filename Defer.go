@@ -21,5 +21,5 @@ func third() {
 func main() {
 	defer first()
 	second()
-	third()
+	defer third()
 }

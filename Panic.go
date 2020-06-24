@@ -17,6 +17,7 @@ func fullName(firstName *string, lastName *string) {
 }
 
 func main() {
+	defer fmt.Printf("asd")
 	lastName := "Elon"
 	fullName(nil, &lastName)
 	fmt.Println("returned normally from main")
